@@ -1,105 +1,171 @@
-.card-body{
+.card-body {
     display: flex;
     padding-left: 1150px;
     padding-top: 10px;
     color: white;
     font-weight: bold;
 }
-.card{
+
+.card {
     height: 40px;
     background-color: rgb(4, 127, 136);
 }
-#top{
+
+#top {
     padding-left: 25px;
 }
-#logo{
+
+#logo {
     width: 550px;
     padding-left: 80px;
 
-    
+
 }
-#head{
+
+#head {
     display: flex;
     width: 600px;
     height: 30px;
-   padding-left: 5px;
-   background-color: rgb(4, 127, 136);
-   padding-top: -25px;
-   border-radius: 5px;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: large;
-   font-weight: bold;
+    padding-left: 5px;
+    background-color: rgb(4, 127, 136);
+    padding-top: -25px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
 }
-#head :hover{
+
+#head :hover {
     cursor: pointer;
-    color:black ;
+    color: black;
 }
-#toptag{
+
+#img-size {
+    width: 600px;
+}
+
+#first-text {
+    padding-left: 50px;
+}
+
+#toptag {
     display: flex;
     padding-top: 50px;
 }
-#topside{
-   display: flex;
-   padding-top: 20px;
+
+#topside {
+    display: flex;
+    padding-top: 20px;
 }
-.space{
+
+.space {
     padding-left: 10px;
     padding-bottom: 10px;
     color: white;
 }
-#exspace{
-    padding-left:-25px;
+
+#exspace {
+    padding-left: -25px;
     color: white;
 }
-#middle{
+
+#middle {
     display: flex;
     padding-top: 50px;
+
 }
-#closingtag{
+
+.move {
+    padding-top: 50px;
+}
+
+#closingtag {
     background-color: black;
     padding-top: 80px;
     display: flex;
     height: 500px;
     width: 100%;
-}.end{
-    color: rgb(146, 145, 145);
-    
 }
-#closing{
+
+.end {
+    color: rgb(146, 145, 145);
+
+}
+
+#closing {
     display: flex;
 }
-.endspace{
-   padding-left: 50px;
-   padding-top: 130px;
+
+.endspace {
+    padding-left: 50px;
+    padding-top: 130px;
 }
-#img2{
+
+#img2 {
     width: 400px;
     padding-left: 80px;
     padding-bottom: 310px;
-   
+
 }
-.endedit{
+
+.endedit {
     padding-left: 90px;
 }
-.edit:hover{
-  text-decoration: underline;
-  transition: 0.1s ease-in-out;
-  text-decoration-color: rgb(4, 127, 136);
-  
+
+.edit:hover {
+    text-decoration: underline;
+    transition: 0.1s ease-in-out;
+    text-decoration-color: rgb(4, 127, 136);
+
 }
-.edit{
+
+.edit {
     color: white;
 }
-.middle{
+
+.midd {
     padding-left: 90px;
     padding-top: 40px;
 }
-.middle-text{
+
+.middle-text {
     padding-left: 300px;
 }
-.middle-words{
+
+.middle-words {
     padding-top: 40px;
 }
-#final{
+
+#final {
     padding-top: 80px;
 }
+
+#colorswitch {
+    padding-left: 550px;
+}
+
+.first {
+    background-color: black;
+    border-color: black;
+}
+
+#dark {
+    color: white;
+}
+
+#white {
+    color: black;
+
+}
+
+.second {
+    background-color: white;
+    border-color: white;
+}
+
+.ex:hover{
+    cursor: pointer;
+   color: white;
+   background-color: rgb(4, 109, 229);
+}
+

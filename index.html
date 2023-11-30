@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Pet-classifieds.com</title>
 </head>
 
@@ -31,11 +33,18 @@
                 </div>
             </div>
         </div>
+                <div class="container" id="colorswitch">
+            <p>Click the first button to switch to darkmode and the second button to switch back to normal:</p>
+            <div>
+                <button class="first" id="dark">darkmode</button>
+                <button class="second" id="white">normal</button>
+            </div>
+        </div>
 
-        <div class="container">
+        <div class="container move">
             <div id="middle">
-                <img src="img/Free-puppies-near-me.jpg" alt="">
-                <div>
+                <img id="img-size" src="img/Free-puppies-near-me.jpg" alt="">
+                <div id="first-text">
                     <p>You have searched for “puppies near me now” or “free puppies near me”?
                         it looks like the time has come for you to take home a new addition that will
                         offer you many benefits and also increase your emotional well-being. Here are the things you
@@ -52,9 +61,10 @@
                 </div>
             </div>
         </div>
-        <div class="container middle">
-            <h3 class="middle-text">Find Local Buyers for Your Pet</h3>
-            <p class="middle-words">Whether you have one pet to sell or are a professional breeder you want a way to get your pets out in the
+        <div class="container midd">
+            <h3 class="middle-text ex">Find Local Buyers for Your Pet</h3>
+            <p class="middle-words">Whether you have one pet to sell or are a professional breeder you want a way to get
+                your pets out in the
                 local community.
                 Local pet sales are easier on both the owner and animal. It reduces the stress involved in traveling
                 with animals.
@@ -63,18 +73,20 @@
                 Using quality local pet classifieds is the simplest solution to finding the best home for your pet.
             </p>
         </div>
-        <div class="container middle">
-            <h3 class="middle-text">Quickly Find Local Pets for Sale </h3>
-            <p class="middle-words">A classified site for pets is priceless when you are looking for a specific type of pet such as a turtle,
+        <div class="container midd">
+            <h3 class="middle-text ex">Quickly Find Local Pets for Sale </h3>
+            <p class="middle-words">A classified site for pets is priceless when you are looking for a specific type of
+                pet such as a turtle,
                 snake, hamster, parrot, dog, cat and more.
                 Rather than pouring through a pet category you can choose from categories that separate the different
                 types of pets.
                 You won't have to look over tons of dog posts to find the rabbit you want to purchase.
                 Find the desired pet as close to your location as possible.</p>
         </div>
-        <div class="container middle">
-            <h3 class="middle-text">Post and Search Lost Pet Classifieds</h3>
-            <p class="middle-words">The sudden loss of a pet from having them escape enclosures can be heartbreaking especially for families
+        <div class="container midd">
+            <h3 class="middle-text ex">Post and Search Lost Pet Classifieds</h3>
+            <p class="middle-words">The sudden loss of a pet from having them escape enclosures can be heartbreaking
+                especially for families
                 with small children.
                 The bonds formed between pets and humans can be extraordinary.
                 Finding your lost pet becomes a high-priority. It's extremely helpful to have a pet classified site with
@@ -87,39 +99,39 @@
         </div>
         <div id="final">
             <div id="closingtag">
-                    <img id="img2" src="img/logo.jpeg.svg" alt="">
-                    <div id="closing">
-                <div class="endspace">
-                    <h4 class="edit">Services</h4>
-                    <ul class="end">
-                        <li>Post Ad</li>
-                        <li>Packages</li>
-                        <li>FAQ's</li>
-                        <li>Ad Guidelines</li>
-                        <li>Contact Us</li>
-                        <li>Terms of use</li>
-                        <li>Privacy Policy</li>
-                    </ul>
-                </div>
-                <div class="endspace endedit">
-                    <h4 class="edit">Blogs</h4>
-                    <ul class="end">
-                        <li>Dangerous Halloween candy for Dogs</li>
-                        <li>How to Trick or Treat safely with your dog</li>
-                        <li>Best Halloween costumes for Dog</li>
-                    </ul>
-                </div>
-                <div class="endspace endedit">
-                    <h4 class="edit">Members</h4>
-                    <ul class="end">
-                        <li>Login</li>
-                        <li>Register</li>
-                        <li>Profile</li>
-                    </ul>
+                <img id="img2" src="img/logo.jpeg.svg" alt="">
+                <div id="closing">
+                    <div class="endspace">
+                        <h4 class="edit">Services</h4>
+                        <ul class="end">
+                            <li>Post Ad</li>
+                            <li>Packages</li>
+                            <li>FAQ's</li>
+                            <li>Ad Guidelines</li>
+                            <li>Contact Us</li>
+                            <li>Terms of use</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="endspace endedit">
+                        <h4 class="edit">Blogs</h4>
+                        <ul class="end">
+                            <li>Dangerous Halloween candy for Dogs</li>
+                            <li>How to Trick or Treat safely with your dog</li>
+                            <li>Best Halloween costumes for Dog</li>
+                        </ul>
+                    </div>
+                    <div class="endspace endedit">
+                        <h4 class="edit">Members</h4>
+                        <ul class="end">
+                            <li>Login</li>
+                            <li>Register</li>
+                            <li>Profile</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
