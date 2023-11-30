@@ -163,9 +163,12 @@
     border-color: white;
 }
 
-.ex:hover{
-    cursor: pointer;
-   color: white;
+.enhance{
+   border-color: rgb(4, 109, 229);
+    box-sizing: border-box;
    background-color: rgb(4, 109, 229);
+   
 }
-
+.enhance{
+     color:white;
+}
